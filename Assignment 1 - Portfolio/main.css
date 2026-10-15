@@ -1,0 +1,143 @@
+/* Body Style */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dbe0e7;
+}
+
+/* Styling For Header */
+header {
+    background-color: #18487b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+header p {
+    color: #ddd;
+}
+
+header a {
+    display: inline-block;
+    background-color: #2a5685;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #f6faff44;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/* styling for All Section */
+section {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+section h2 {
+    color: #18487b;
+    border-bottom: 1px solid #d5eef9;
+    padding: 10px;
+}
+
+/* Styling About Section */
+.about-section .personal-data {
+    overflow: auto;
+}
+
+.about-section .personal-data img {
+    float: left;
+    border-radius: 50%;
+    width: 150px;
+    margin: 0 15px;
+    border: 5px solid #e1f4fc;
+}
+
+.about-section .personal-data p {
+    line-height: 1.8;
+}
+
+.about-section .personal-data span {
+    color: #18487b;
+    font-weight: bold;
+}
+
+.about-section .personal-data button {
+    background-color: #0b65ad;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* styling Skills Section */
+.skills-section .skills-card {
+    background-color: #f6faff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    border: 1px solid #deebfc;
+}
+
+.skills-section .skills-card h3 {
+    color: #0B65AD;
+}
+
+/* Styling Experience Section*/
+.experience-section .experience-card {
+    background-color: #F8FAFC;
+    border-radius: 15px;
+    border-left: 5px solid #18487b;
+    padding: 10px;
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+.experience-section .experience-card img {
+    float: left;
+    border: 1px solid #d5eef9;
+    border-radius: 10px;
+    width: 60px;
+    margin: 0 15px;
+    background-color: white;
+    padding: 10px;
+}
+
+.experience-section .experience-card span {
+    color: #0b65ad
+}
+
+/* styling Contact Section */
+
+.contact-section {
+    background-color: #18487b;
+    color: white;
+}
+
+.contact-section a {
+    display: inline-block;
+    background-color: #2a5685;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ffffff39;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Style Footer*/
+footer {
+    background-color: #071A35;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+footer span {
+    color: #47acfe;
+}
