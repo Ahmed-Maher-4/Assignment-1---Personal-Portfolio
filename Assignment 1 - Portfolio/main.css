@@ -17,6 +17,10 @@ header p {
     color: #ddd;
 }
 
+header ul li{
+    display:inline-block;
+}
+
 header a {
     display: inline-block;
     background-color: #2a5685;
